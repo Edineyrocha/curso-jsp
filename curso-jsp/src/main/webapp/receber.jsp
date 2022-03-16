@@ -9,8 +9,10 @@
 <body>
 <%
 String nome = request.getParameter("nome");
-out.print(nome);
+out.println("Nome  " + nome);
 
+String idade = request.getParameter("idade");
+out.println("Idade   " + idade);
 %>
 </body>
 </html>

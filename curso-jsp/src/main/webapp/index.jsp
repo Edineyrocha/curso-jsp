@@ -11,5 +11,12 @@
 <%
 out.print("Seu sucesso garantido Java dentro do JSP");
 %>
+<form action="receber.jsp">
+<input name="nome">
+<input name="idade">
+<input type="submit" value ="Enviar">
+
+</form>
+
 </body>
 </html>
