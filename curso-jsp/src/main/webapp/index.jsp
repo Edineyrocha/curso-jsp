@@ -11,7 +11,7 @@
 <%
 out.print("Seu sucesso garantido Java dentro do JSP");
 %>
-<form action="receber.jsp">
+<form action="ServletLogin1">
 <input name="nome">
 <input name="idade">
 <input type="submit" value ="Enviar">
