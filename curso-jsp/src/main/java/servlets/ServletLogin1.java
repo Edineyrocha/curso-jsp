@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ServletLogin1
  */
-@WebServlet(description = "/ServletLogin")
+@WebServlet(urlPatterns = {"/ServletLogin1"})
 public class ServletLogin1 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
